@@ -23,7 +23,7 @@ with open(r"C:\Users\divya\OneDrive\Documents\GitHub\projet\heat-disease\Heart_d
     chatgpt=pickle.load(f)
 
 st.image('https://t-shikuro.github.io/images/heart/heart.gif')
-df=pd.read_csv(r'C:\Users\divya\OneDrive\Documents\GitHub\projet\heat-disease\ml_model\heart.csv')
+df=pd.read_csv(r'C:\Users\divya\OneDrive\Documents\GitHub\projet\heat-disease\heart.csv')
 
 st.sidebar.header("Select feature to predict heart disease")
 st.sidebar.image("https://tse4.mm.bing.net/th/id/OIP.7LA1z7w-drtQmnFmC0KBNAHaE7?cb=thfvnext&pid=ImgDet&w=201&h=134&c=7&o=7&rm=3")
