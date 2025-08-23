@@ -72,3 +72,5 @@ else:
     placeholder.empty()
     place.empty()
     st.warning(body)
+
+st.markdown("Design By : Divynashu Raj")
